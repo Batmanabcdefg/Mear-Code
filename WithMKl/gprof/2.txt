@@ -1,0 +1,599 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ks/call  Ks/call  name    
+ 44.49   1836.03  1836.03   239426     0.00     0.00  elementmatrixek_d_mp_ekd_sed_reg_reg_
+ 11.91   2327.47   491.44 1117482240     0.00     0.00  elementmatrix_mp_normal_position_
+  6.95   2614.20   286.73    37827     0.00     0.00  elementmatrixek_d_mp_ekd_sed_tip_reg_
+  6.51   2882.99   268.79                             log.L
+  5.14   3095.01   212.02    11632     0.00     0.00  elementmatrixek_d_mp_ekd_ii_reg_reg_
+  4.33   3273.53   178.52 151912160     0.00     0.00  elementmatrix_mp_finde1_
+  4.03   3439.67   166.14 127458400     0.00     0.00  elementmatrix_mp_finde2_
+  4.00   3604.76   165.09    11030     0.00     0.00  elementmatrixek_d_mp_ekd_adt_reg_reg_
+  1.97   3685.92    81.16 127458400     0.00     0.00  elementmatrix_mp_findb2_
+  1.55   3750.07    64.15 151912160     0.00     0.00  elementmatrix_mp_findb1_
+  1.44   3809.59    59.52     7497     0.00     0.00  elementmatrixek_d_mp_ekd_sed_reg_tip_
+  1.15   3857.18    47.59     1204     0.00     0.00  elementmatrixek_d_mp_ekd_ii_tip_tip_
+  1.08   3901.62    44.44                             __powr8i4
+  0.95   3940.96    39.34     1202     0.00     0.00  elementmatrixek_d_mp_ekd_adt_reg_tip_
+  0.91   3978.43    37.47   610416     0.00     0.00  d_assemble_
+  0.75   4009.49    31.06 558741120     0.00     0.00  elementmatrix_mp_findr_
+  0.65   4036.27    26.78                             sqrt
+  0.41   4053.07    16.80    10058     0.00     0.00  linearsolver_mp_d_mult_ax_
+  0.41   4069.85    16.78                             llround
+  0.36   4084.65    14.80     1806     0.00     0.00  elementmatrixek_d_mp_ekd_sed_tip_tip_
+  0.27   4095.69    11.04                             log
+  0.17   4102.89     7.20 191436264     0.00     0.00  reg_shape_
+  0.12   4107.71     4.82                             llround.A
+  0.11   4112.14     4.43      301     0.00     0.00  post_
+  0.09   4116.02     3.88   311626     0.00     0.00  elementmatrix_mp_element_
+  0.08   4119.20     3.18                             sin
+  0.05   4121.20     2.00                             __powc16i4
+  0.03   4122.33     1.13       15     0.00     0.00  logintpoint_
+  0.02   4123.32     0.99      301     0.00     0.01  formakf_
+  0.02   4124.08     0.76 14863380     0.00     0.00  tip_dshape_
+  0.01   4124.69     0.61 14887460     0.00     0.00  tip_shape_
+  0.01   4125.17     0.48   311626     0.00     0.00  elementmatrix_mp_ek_d_
+  0.01   4125.43     0.26      602     0.00     0.00  linearsolver_mp_dpcg_
+  0.01   4125.69     0.26    12836     0.00     0.00  elementmatrix_mp_ek_c_
+  0.00   4125.87     0.18   298790     0.00     0.00  globaldata_mp_adjacent_
+  0.00   4126.04     0.17     9456     0.00     0.00  linearsolver_mp_d_preconditioner_
+  0.00   4126.21     0.17     1906     0.00     0.00  gaussintpoint_
+  0.00   4126.34     0.13                             cvtas_t_to_a
+  0.00   4126.47     0.13                             for_write_seq_fmt_xmit
+  0.00   4126.59     0.12                             for__interp_fmt
+  0.00   4126.67     0.08                             cvt_ieee_t_to_text_ex
+  0.00   4126.74     0.07        2     0.00     0.00  elementmatrixek_d_mp_ekd_adt_tip_reg_
+  0.00   4126.81     0.07                             for__desc_ret_item
+  0.00   4126.85     0.04                             __intel_new_memset
+  0.00   4126.88     0.03                             for__acquire_lun
+  0.00   4126.91     0.03                             for__format_value
+  0.00   4126.94     0.03                             for__put_sf
+  0.00   4126.97     0.03                             for_write_seq_fmt
+  0.00   4126.99     0.02     1204     0.00     0.00  pressure_solver_
+  0.00   4127.01     0.02                             __intel_new_memcpy
+  0.00   4127.03     0.02                             _intel_fast_memcpy.A
+  0.00   4127.05     0.02                             cvt_integer_to_text
+  0.00   4127.07     0.02                             for__write_output
+  0.00   4127.08     0.01     1204     0.00     0.00  remesh_mp_edge_node_propagate_
+  0.00   4127.09     0.01                             elementmatrixeb_rigid2_mp_ebb_ij2_
+  0.00   4127.10     0.01                             for__put_d
+  0.00   4127.11     0.01                             for_write_seq_lis_xmit
+  0.00   4127.11     0.01                             elementmatrixek_d_mp_ekd_adt_tip_tip_
+  0.00   4127.11     0.00    10912     0.00     0.00  remesh_mp_distance_
+  0.00   4127.11     0.00     3612     0.00     0.00  compsif_
+  0.00   4127.11     0.00     2408     0.00     0.00  remesh_mp_findpoint_
+  0.00   4127.11     0.00     1308     0.00     0.00  remesh_mp_quad_interpolate_
+  0.00   4127.11     0.00      602     0.00     0.00  linearsolver_mp_dpcgsolver_
+  0.00   4127.11     0.00      301     0.00     0.00  kernel1_
+  0.00   4127.11     0.00      301     0.00     0.00  processing_
+  0.00   4127.11     0.00      301     0.00     0.00  rearrangeakf_
+  0.00   4127.11     0.00        1     0.00     3.75  MAIN__
+  0.00   4127.11     0.00        1     0.00     0.00  datapreparation_
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.00% of 4127.11 seconds
+
+index % time    self  children    called     name
+                0.00 3748.48       1/1           main [2]
+[1]     90.8    0.00 3748.48       1         MAIN__ [1]
+                0.99 3724.31     301/301         formakf_ [3]
+                0.00   17.23     301/301         processing_ [26]
+                4.43    0.38     301/301         post_ [32]
+                0.00    1.14       1/1           datapreparation_ [35]
+                0.00    0.00     301/301         rearrangeakf_ [69]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     90.8    0.00 3748.48                 main [2]
+                0.00 3748.48       1/1           MAIN__ [1]
+-----------------------------------------------
+                0.99 3724.31     301/301         MAIN__ [1]
+[3]     90.3    0.99 3724.31     301         formakf_ [3]
+                3.88 3682.96  311626/311626      elementmatrix_mp_element_ [4]
+               37.47    0.00  610416/610416      d_assemble_ [20]
+                0.00    0.00     301/301         kernel1_ [68]
+-----------------------------------------------
+                3.88 3682.96  311626/311626      formakf_ [3]
+[4]     89.3    3.88 3682.96  311626         elementmatrix_mp_element_ [4]
+                0.48 3682.20  311626/311626      elementmatrix_mp_ek_d_ [5]
+                0.26    0.01   12836/12836       elementmatrix_mp_ek_c_ [39]
+-----------------------------------------------
+                0.48 3682.20  311626/311626      elementmatrix_mp_element_ [4]
+[5]     89.2    0.48 3682.20  311626         elementmatrix_mp_ek_d_ [5]
+             1836.03  700.82  239426/239426      elementmatrixek_d_mp_ekd_sed_reg_reg_ [6]
+              286.73  110.79   37827/37827       elementmatrixek_d_mp_ekd_sed_tip_reg_ [8]
+              212.02   90.63   11632/11632       elementmatrixek_d_mp_ekd_ii_reg_reg_ [10]
+              165.09   60.60   11030/11030       elementmatrixek_d_mp_ekd_adt_reg_reg_ [13]
+               59.52   22.22    7497/7497        elementmatrixek_d_mp_ekd_sed_reg_tip_ [16]
+               47.59   15.05    1204/1204        elementmatrixek_d_mp_ekd_ii_tip_tip_ [17]
+               39.34   15.35    1202/1202        elementmatrixek_d_mp_ekd_adt_reg_tip_ [18]
+               14.80    5.36    1806/1806        elementmatrixek_d_mp_ekd_sed_tip_tip_ [23]
+                0.18    0.00  298790/298790      globaldata_mp_adjacent_ [40]
+                0.07    0.02       2/2           elementmatrixek_d_mp_ekd_adt_tip_reg_ [46]
+-----------------------------------------------
+             1836.03  700.82  239426/239426      elementmatrix_mp_ek_d_ [5]
+[6]     61.5 1836.03  700.82  239426         elementmatrixek_d_mp_ekd_sed_reg_reg_ [6]
+              124.84   89.56 95770400/127458400     elementmatrix_mp_finde2_ [11]
+              112.54   89.56 95770400/151912160     elementmatrix_mp_finde1_ [9]
+               60.98   89.56 95770400/127458400     elementmatrix_mp_findb2_ [15]
+               40.44   89.56 95770400/151912160     elementmatrix_mp_findb1_ [14]
+                3.78    0.00 100558920/191436264     reg_shape_ [30]
+-----------------------------------------------
+              112.11    0.00 254916800/1117482240     elementmatrix_mp_findb2_ [15]
+              112.11    0.00 254916800/1117482240     elementmatrix_mp_finde2_ [11]
+              133.61    0.00 303824320/1117482240     elementmatrix_mp_findb1_ [14]
+              133.61    0.00 303824320/1117482240     elementmatrix_mp_finde1_ [9]
+[7]     11.9  491.44    0.00 1117482240         elementmatrix_mp_normal_position_ [7]
+-----------------------------------------------
+              286.73  110.79   37827/37827       elementmatrix_mp_ek_d_ [5]
+[8]      9.6  286.73  110.79   37827         elementmatrixek_d_mp_ekd_sed_tip_reg_ [8]
+               19.72   14.15 15130800/127458400     elementmatrix_mp_finde2_ [11]
+               17.78   14.15 15130800/151912160     elementmatrix_mp_finde1_ [9]
+                9.63   14.15 15130800/127458400     elementmatrix_mp_findb2_ [15]
+                6.39   14.15 15130800/151912160     elementmatrix_mp_findb1_ [14]
+                0.60    0.00 15887340/191436264     reg_shape_ [30]
+                0.04    0.00  756540/14863380     tip_dshape_ [37]
+                0.03    0.00  756540/14887460     tip_shape_ [38]
+-----------------------------------------------
+                0.01    0.01    5440/151912160     elementmatrixek_d_mp_ekd_adt_tip_reg_ [46]
+                0.85    0.68  722400/151912160     elementmatrixek_d_mp_ekd_sed_tip_tip_ [23]
+                3.52    2.80 2998800/151912160     elementmatrixek_d_mp_ekd_sed_reg_tip_ [16]
+                3.91    3.11 3323040/151912160     elementmatrixek_d_mp_ekd_ii_tip_tip_ [17]
+                4.07    3.24 3461760/151912160     elementmatrixek_d_mp_ekd_adt_reg_tip_ [18]
+               14.52   11.55 12353600/151912160     elementmatrixek_d_mp_ekd_adt_reg_reg_ [13]
+               17.78   14.15 15130800/151912160     elementmatrixek_d_mp_ekd_sed_tip_reg_ [8]
+               21.32   16.97 18145920/151912160     elementmatrixek_d_mp_ekd_ii_reg_reg_ [10]
+              112.54   89.56 95770400/151912160     elementmatrixek_d_mp_ekd_sed_reg_reg_ [6]
+[9]      7.8  178.52  142.06 151912160         elementmatrix_mp_finde1_ [9]
+              133.61    0.00 303824320/1117482240     elementmatrix_mp_normal_position_ [7]
+                8.44    0.00 151912160/558741120     elementmatrix_mp_findr_ [21]
+-----------------------------------------------
+              212.02   90.63   11632/11632       elementmatrix_mp_ek_d_ [5]
+[10]     7.3  212.02   90.63   11632         elementmatrixek_d_mp_ekd_ii_reg_reg_ [10]
+               21.32   16.97 18145920/151912160     elementmatrix_mp_finde1_ [9]
+                7.66   16.97 18145920/151912160     elementmatrix_mp_findb1_ [14]
+                9.10    6.53 6979200/127458400     elementmatrix_mp_finde2_ [11]
+                4.44    6.53 6979200/127458400     elementmatrix_mp_findb2_ [15]
+                1.11    0.00 29545280/191436264     reg_shape_ [30]
+-----------------------------------------------
+                0.00    0.00    1200/127458400     elementmatrixek_d_mp_ekd_adt_tip_reg_ [46]
+                0.94    0.67  721200/127458400     elementmatrixek_d_mp_ekd_adt_reg_tip_ [18]
+                0.94    0.68  722400/127458400     elementmatrixek_d_mp_ekd_ii_tip_tip_ [17]
+                0.94    0.68  722400/127458400     elementmatrixek_d_mp_ekd_sed_tip_tip_ [23]
+                3.91    2.80 2998800/127458400     elementmatrixek_d_mp_ekd_sed_reg_tip_ [16]
+                5.75    4.13 4412000/127458400     elementmatrixek_d_mp_ekd_adt_reg_reg_ [13]
+                9.10    6.53 6979200/127458400     elementmatrixek_d_mp_ekd_ii_reg_reg_ [10]
+               19.72   14.15 15130800/127458400     elementmatrixek_d_mp_ekd_sed_tip_reg_ [8]
+              124.84   89.56 95770400/127458400     elementmatrixek_d_mp_ekd_sed_reg_reg_ [6]
+[11]     6.9  166.14  119.19 127458400         elementmatrix_mp_finde2_ [11]
+              112.11    0.00 254916800/1117482240     elementmatrix_mp_normal_position_ [7]
+                7.09    0.00 127458400/558741120     elementmatrix_mp_findr_ [21]
+-----------------------------------------------
+                                                 <spontaneous>
+[12]     6.5  268.79    0.00                 log.L [12]
+-----------------------------------------------
+              165.09   60.60   11030/11030       elementmatrix_mp_ek_d_ [5]
+[13]     5.5  165.09   60.60   11030         elementmatrixek_d_mp_ekd_adt_reg_reg_ [13]
+               14.52   11.55 12353600/151912160     elementmatrix_mp_finde1_ [9]
+                5.22   11.55 12353600/151912160     elementmatrix_mp_findb1_ [14]
+                5.75    4.13 4412000/127458400     elementmatrix_mp_finde2_ [11]
+                2.81    4.13 4412000/127458400     elementmatrix_mp_findb2_ [15]
+                0.95    0.00 25148400/191436264     reg_shape_ [30]
+-----------------------------------------------
+                0.00    0.01    5440/151912160     elementmatrixek_d_mp_ekd_adt_tip_reg_ [46]
+                0.31    0.68  722400/151912160     elementmatrixek_d_mp_ekd_sed_tip_tip_ [23]
+                1.27    2.80 2998800/151912160     elementmatrixek_d_mp_ekd_sed_reg_tip_ [16]
+                1.40    3.11 3323040/151912160     elementmatrixek_d_mp_ekd_ii_tip_tip_ [17]
+                1.46    3.24 3461760/151912160     elementmatrixek_d_mp_ekd_adt_reg_tip_ [18]
+                5.22   11.55 12353600/151912160     elementmatrixek_d_mp_ekd_adt_reg_reg_ [13]
+                6.39   14.15 15130800/151912160     elementmatrixek_d_mp_ekd_sed_tip_reg_ [8]
+                7.66   16.97 18145920/151912160     elementmatrixek_d_mp_ekd_ii_reg_reg_ [10]
+               40.44   89.56 95770400/151912160     elementmatrixek_d_mp_ekd_sed_reg_reg_ [6]
+[14]     5.0   64.15  142.06 151912160         elementmatrix_mp_findb1_ [14]
+              133.61    0.00 303824320/1117482240     elementmatrix_mp_normal_position_ [7]
+                8.44    0.00 151912160/558741120     elementmatrix_mp_findr_ [21]
+-----------------------------------------------
+                0.00    0.00    1200/127458400     elementmatrixek_d_mp_ekd_adt_tip_reg_ [46]
+                0.46    0.67  721200/127458400     elementmatrixek_d_mp_ekd_adt_reg_tip_ [18]
+                0.46    0.68  722400/127458400     elementmatrixek_d_mp_ekd_ii_tip_tip_ [17]
+                0.46    0.68  722400/127458400     elementmatrixek_d_mp_ekd_sed_tip_tip_ [23]
+                1.91    2.80 2998800/127458400     elementmatrixek_d_mp_ekd_sed_reg_tip_ [16]
+                2.81    4.13 4412000/127458400     elementmatrixek_d_mp_ekd_adt_reg_reg_ [13]
+                4.44    6.53 6979200/127458400     elementmatrixek_d_mp_ekd_ii_reg_reg_ [10]
+                9.63   14.15 15130800/127458400     elementmatrixek_d_mp_ekd_sed_tip_reg_ [8]
+               60.98   89.56 95770400/127458400     elementmatrixek_d_mp_ekd_sed_reg_reg_ [6]
+[15]     4.9   81.16  119.19 127458400         elementmatrix_mp_findb2_ [15]
+              112.11    0.00 254916800/1117482240     elementmatrix_mp_normal_position_ [7]
+                7.09    0.00 127458400/558741120     elementmatrix_mp_findr_ [21]
+-----------------------------------------------
+               59.52   22.22    7497/7497        elementmatrix_mp_ek_d_ [5]
+[16]     2.0   59.52   22.22    7497         elementmatrixek_d_mp_ekd_sed_reg_tip_ [16]
+                3.91    2.80 2998800/127458400     elementmatrix_mp_finde2_ [11]
+                3.52    2.80 2998800/151912160     elementmatrix_mp_finde1_ [9]
+                1.91    2.80 2998800/127458400     elementmatrix_mp_findb2_ [15]
+                1.27    2.80 2998800/151912160     elementmatrix_mp_findb1_ [14]
+                0.15    0.00 2998800/14863380     tip_dshape_ [37]
+                0.12    0.00 2998800/14887460     tip_shape_ [38]
+                0.12    0.00 3148740/191436264     reg_shape_ [30]
+-----------------------------------------------
+               47.59   15.05    1204/1204        elementmatrix_mp_ek_d_ [5]
+[17]     1.5   47.59   15.05    1204         elementmatrixek_d_mp_ekd_ii_tip_tip_ [17]
+                3.91    3.11 3323040/151912160     elementmatrix_mp_finde1_ [9]
+                1.40    3.11 3323040/151912160     elementmatrix_mp_findb1_ [14]
+                0.94    0.68  722400/127458400     elementmatrix_mp_finde2_ [11]
+                0.46    0.68  722400/127458400     elementmatrix_mp_findb2_ [15]
+                0.30    0.00 5947760/14863380     tip_dshape_ [37]
+                0.24    0.00 5947760/14887460     tip_shape_ [38]
+                0.22    0.00 5947760/191436264     reg_shape_ [30]
+-----------------------------------------------
+               39.34   15.35    1202/1202        elementmatrix_mp_ek_d_ [5]
+[18]     1.3   39.34   15.35    1202         elementmatrixek_d_mp_ekd_adt_reg_tip_ [18]
+                4.07    3.24 3461760/151912160     elementmatrix_mp_finde1_ [9]
+                1.46    3.24 3461760/151912160     elementmatrix_mp_findb1_ [14]
+                0.94    0.67  721200/127458400     elementmatrix_mp_finde2_ [11]
+                0.46    0.67  721200/127458400     elementmatrix_mp_findb2_ [15]
+                0.21    0.00 4182960/14863380     tip_dshape_ [37]
+                0.21    0.00 5577280/191436264     reg_shape_ [30]
+                0.17    0.00 4182960/14887460     tip_shape_ [38]
+-----------------------------------------------
+                                                 <spontaneous>
+[19]     1.1   44.44    0.00                 __powr8i4 [19]
+-----------------------------------------------
+                              610416             d_assemble_ [20]
+               37.47    0.00  610416/610416      formakf_ [3]
+[20]     0.9   37.47    0.00  610416+610416  d_assemble_ [20]
+                              610416             d_assemble_ [20]
+-----------------------------------------------
+                7.09    0.00 127458400/558741120     elementmatrix_mp_findb2_ [15]
+                7.09    0.00 127458400/558741120     elementmatrix_mp_finde2_ [11]
+                8.44    0.00 151912160/558741120     elementmatrix_mp_findb1_ [14]
+                8.44    0.00 151912160/558741120     elementmatrix_mp_finde1_ [9]
+[21]     0.8   31.06    0.00 558741120         elementmatrix_mp_findr_ [21]
+-----------------------------------------------
+                                                 <spontaneous>
+[22]     0.6   26.78    0.00                 sqrt [22]
+-----------------------------------------------
+               14.80    5.36    1806/1806        elementmatrix_mp_ek_d_ [5]
+[23]     0.5   14.80    5.36    1806         elementmatrixek_d_mp_ekd_sed_tip_tip_ [23]
+                0.94    0.68  722400/127458400     elementmatrix_mp_finde2_ [11]
+                0.85    0.68  722400/151912160     elementmatrix_mp_finde1_ [9]
+                0.46    0.68  722400/127458400     elementmatrix_mp_findb2_ [15]
+                0.31    0.68  722400/151912160     elementmatrix_mp_findb1_ [14]
+                0.04    0.00  758520/14863380     tip_dshape_ [37]
+                0.03    0.00  758520/14887460     tip_shape_ [38]
+                0.03    0.00  758520/191436264     reg_shape_ [30]
+-----------------------------------------------
+                0.26   16.97     602/602         linearsolver_mp_dpcgsolver_ [25]
+[24]     0.4    0.26   16.97     602         linearsolver_mp_dpcg_ [24]
+               16.80    0.00   10058/10058       linearsolver_mp_d_mult_ax_ [27]
+                0.17    0.00    9456/9456        linearsolver_mp_d_preconditioner_ [41]
+-----------------------------------------------
+                0.00   17.23     602/602         processing_ [26]
+[25]     0.4    0.00   17.23     602         linearsolver_mp_dpcgsolver_ [25]
+                0.26   16.97     602/602         linearsolver_mp_dpcg_ [24]
+-----------------------------------------------
+                0.00   17.23     301/301         MAIN__ [1]
+[26]     0.4    0.00   17.23     301         processing_ [26]
+                0.00   17.23     602/602         linearsolver_mp_dpcgsolver_ [25]
+-----------------------------------------------
+               16.80    0.00   10058/10058       linearsolver_mp_dpcg_ [24]
+[27]     0.4   16.80    0.00   10058         linearsolver_mp_d_mult_ax_ [27]
+-----------------------------------------------
+                                                 <spontaneous>
+[28]     0.4   16.78    0.00                 llround [28]
+-----------------------------------------------
+                                                 <spontaneous>
+[29]     0.3   11.04    0.00                 log [29]
+-----------------------------------------------
+                0.00    0.00     132/191436264     datapreparation_ [35]
+                0.00    0.00    3612/191436264     compsif_ [64]
+                0.00    0.00    8720/191436264     elementmatrixek_d_mp_ekd_adt_tip_reg_ [46]
+                0.01    0.00  256720/191436264     elementmatrix_mp_ek_c_ [39]
+                0.03    0.00  758520/191436264     elementmatrixek_d_mp_ekd_sed_tip_tip_ [23]
+                0.12    0.00 3148740/191436264     elementmatrixek_d_mp_ekd_sed_reg_tip_ [16]
+                0.17    0.00 4594840/191436264     post_ [32]
+                0.21    0.00 5577280/191436264     elementmatrixek_d_mp_ekd_adt_reg_tip_ [18]
+                0.22    0.00 5947760/191436264     elementmatrixek_d_mp_ekd_ii_tip_tip_ [17]
+                0.60    0.00 15887340/191436264     elementmatrixek_d_mp_ekd_sed_tip_reg_ [8]
+                0.95    0.00 25148400/191436264     elementmatrixek_d_mp_ekd_adt_reg_reg_ [13]
+                1.11    0.00 29545280/191436264     elementmatrixek_d_mp_ekd_ii_reg_reg_ [10]
+                3.78    0.00 100558920/191436264     elementmatrixek_d_mp_ekd_sed_reg_reg_ [6]
+[30]     0.2    7.20    0.00 191436264         reg_shape_ [30]
+-----------------------------------------------
+                                                 <spontaneous>
+[31]     0.1    4.82    0.00                 llround.A [31]
+-----------------------------------------------
+                               65540             post_ [32]
+                4.43    0.38     301/301         MAIN__ [1]
+[32]     0.1    4.43    0.38     301+65540   post_ [32]
+                0.17    0.00 4594840/191436264     reg_shape_ [30]
+                0.16    0.00    1806/1906        gaussintpoint_ [42]
+                0.02    0.00    1204/1204        pressure_solver_ [54]
+                0.01    0.00  216720/14863380     tip_dshape_ [37]
+                0.01    0.00    1204/1204        remesh_mp_edge_node_propagate_ [59]
+                0.01    0.00  216720/14887460     tip_shape_ [38]
+                0.00    0.00    3612/3612        compsif_ [64]
+                               65540             post_ [32]
+-----------------------------------------------
+                                                 <spontaneous>
+[33]     0.1    3.18    0.00                 sin [33]
+-----------------------------------------------
+                                                 <spontaneous>
+[34]     0.0    2.00    0.00                 __powc16i4 [34]
+-----------------------------------------------
+                                  47             datapreparation_ [35]
+                0.00    1.14       1/1           MAIN__ [1]
+[35]     0.0    0.00    1.14       1+47      datapreparation_ [35]
+                1.13    0.00      15/15          logintpoint_ [36]
+                0.01    0.00     100/1906        gaussintpoint_ [42]
+                0.00    0.00     132/191436264     reg_shape_ [30]
+                                  47             datapreparation_ [35]
+-----------------------------------------------
+                1.13    0.00      15/15          datapreparation_ [35]
+[36]     0.0    1.13    0.00      15         logintpoint_ [36]
+-----------------------------------------------
+                0.00    0.00    2080/14863380     elementmatrixek_d_mp_ekd_adt_tip_reg_ [46]
+                0.01    0.00  216720/14863380     post_ [32]
+                0.04    0.00  756540/14863380     elementmatrixek_d_mp_ekd_sed_tip_reg_ [8]
+                0.04    0.00  758520/14863380     elementmatrixek_d_mp_ekd_sed_tip_tip_ [23]
+                0.15    0.00 2998800/14863380     elementmatrixek_d_mp_ekd_sed_reg_tip_ [16]
+                0.21    0.00 4182960/14863380     elementmatrixek_d_mp_ekd_adt_reg_tip_ [18]
+                0.30    0.00 5947760/14863380     elementmatrixek_d_mp_ekd_ii_tip_tip_ [17]
+[37]     0.0    0.76    0.00 14863380         tip_dshape_ [37]
+-----------------------------------------------
+                0.00    0.00    2080/14887460     elementmatrixek_d_mp_ekd_adt_tip_reg_ [46]
+                0.00    0.00   24080/14887460     elementmatrix_mp_ek_c_ [39]
+                0.01    0.00  216720/14887460     post_ [32]
+                0.03    0.00  756540/14887460     elementmatrixek_d_mp_ekd_sed_tip_reg_ [8]
+                0.03    0.00  758520/14887460     elementmatrixek_d_mp_ekd_sed_tip_tip_ [23]
+                0.12    0.00 2998800/14887460     elementmatrixek_d_mp_ekd_sed_reg_tip_ [16]
+                0.17    0.00 4182960/14887460     elementmatrixek_d_mp_ekd_adt_reg_tip_ [18]
+                0.24    0.00 5947760/14887460     elementmatrixek_d_mp_ekd_ii_tip_tip_ [17]
+[38]     0.0    0.61    0.00 14887460         tip_shape_ [38]
+-----------------------------------------------
+                0.26    0.01   12836/12836       elementmatrix_mp_element_ [4]
+[39]     0.0    0.26    0.01   12836         elementmatrix_mp_ek_c_ [39]
+                0.01    0.00  256720/191436264     reg_shape_ [30]
+                0.00    0.00   24080/14887460     tip_shape_ [38]
+-----------------------------------------------
+                0.18    0.00  298790/298790      elementmatrix_mp_ek_d_ [5]
+[40]     0.0    0.18    0.00  298790         globaldata_mp_adjacent_ [40]
+-----------------------------------------------
+                0.17    0.00    9456/9456        linearsolver_mp_dpcg_ [24]
+[41]     0.0    0.17    0.00    9456         linearsolver_mp_d_preconditioner_ [41]
+-----------------------------------------------
+                0.01    0.00     100/1906        datapreparation_ [35]
+                0.16    0.00    1806/1906        post_ [32]
+[42]     0.0    0.17    0.00    1906         gaussintpoint_ [42]
+-----------------------------------------------
+                                                 <spontaneous>
+[43]     0.0    0.13    0.00                 cvtas_t_to_a [43]
+-----------------------------------------------
+                                                 <spontaneous>
+[44]     0.0    0.13    0.00                 for_write_seq_fmt_xmit [44]
+-----------------------------------------------
+                                                 <spontaneous>
+[45]     0.0    0.12    0.00                 for__interp_fmt [45]
+-----------------------------------------------
+                0.07    0.02       2/2           elementmatrix_mp_ek_d_ [5]
+[46]     0.0    0.07    0.02       2         elementmatrixek_d_mp_ekd_adt_tip_reg_ [46]
+                0.01    0.01    5440/151912160     elementmatrix_mp_finde1_ [9]
+                0.00    0.01    5440/151912160     elementmatrix_mp_findb1_ [14]
+                0.00    0.00    1200/127458400     elementmatrix_mp_finde2_ [11]
+                0.00    0.00    1200/127458400     elementmatrix_mp_findb2_ [15]
+                0.00    0.00    8720/191436264     reg_shape_ [30]
+                0.00    0.00    2080/14863380     tip_dshape_ [37]
+                0.00    0.00    2080/14887460     tip_shape_ [38]
+-----------------------------------------------
+                                                 <spontaneous>
+[47]     0.0    0.08    0.00                 cvt_ieee_t_to_text_ex [47]
+-----------------------------------------------
+                                                 <spontaneous>
+[48]     0.0    0.07    0.00                 for__desc_ret_item [48]
+-----------------------------------------------
+                                                 <spontaneous>
+[49]     0.0    0.04    0.00                 __intel_new_memset [49]
+-----------------------------------------------
+                                                 <spontaneous>
+[50]     0.0    0.03    0.00                 for__acquire_lun [50]
+-----------------------------------------------
+                                                 <spontaneous>
+[51]     0.0    0.03    0.00                 for__format_value [51]
+-----------------------------------------------
+                                                 <spontaneous>
+[52]     0.0    0.03    0.00                 for__put_sf [52]
+-----------------------------------------------
+                                                 <spontaneous>
+[53]     0.0    0.03    0.00                 for_write_seq_fmt [53]
+-----------------------------------------------
+                0.02    0.00    1204/1204        post_ [32]
+[54]     0.0    0.02    0.00    1204         pressure_solver_ [54]
+-----------------------------------------------
+                                                 <spontaneous>
+[55]     0.0    0.02    0.00                 cvt_integer_to_text [55]
+-----------------------------------------------
+                                                 <spontaneous>
+[56]     0.0    0.02    0.00                 for__write_output [56]
+-----------------------------------------------
+                                                 <spontaneous>
+[57]     0.0    0.02    0.00                 __intel_new_memcpy [57]
+-----------------------------------------------
+                                                 <spontaneous>
+[58]     0.0    0.02    0.00                 _intel_fast_memcpy.A [58]
+-----------------------------------------------
+                0.01    0.00    1204/1204        post_ [32]
+[59]     0.0    0.01    0.00    1204         remesh_mp_edge_node_propagate_ [59]
+                0.00    0.00   10912/10912       remesh_mp_distance_ [65]
+                0.00    0.00    2408/2408        remesh_mp_findpoint_ [66]
+                0.00    0.00    1308/1308        remesh_mp_quad_interpolate_ [67]
+-----------------------------------------------
+                                                 <spontaneous>
+[60]     0.0    0.01    0.00                 elementmatrixeb_rigid2_mp_ebb_ij2_ [60]
+-----------------------------------------------
+                                                 <spontaneous>
+[61]     0.0    0.01    0.00                 for__put_d [61]
+-----------------------------------------------
+                                                 <spontaneous>
+[62]     0.0    0.01    0.00                 for_write_seq_lis_xmit [62]
+-----------------------------------------------
+                                                 <spontaneous>
+[63]     0.0    0.01    0.00                 elementmatrixek_d_mp_ekd_adt_tip_tip_ [63]
+-----------------------------------------------
+                0.00    0.00    3612/3612        post_ [32]
+[64]     0.0    0.00    0.00    3612         compsif_ [64]
+                0.00    0.00    3612/191436264     reg_shape_ [30]
+-----------------------------------------------
+                0.00    0.00   10912/10912       remesh_mp_edge_node_propagate_ [59]
+[65]     0.0    0.00    0.00   10912         remesh_mp_distance_ [65]
+-----------------------------------------------
+                0.00    0.00    2408/2408        remesh_mp_edge_node_propagate_ [59]
+[66]     0.0    0.00    0.00    2408         remesh_mp_findpoint_ [66]
+-----------------------------------------------
+                0.00    0.00    1308/1308        remesh_mp_edge_node_propagate_ [59]
+[67]     0.0    0.00    0.00    1308         remesh_mp_quad_interpolate_ [67]
+-----------------------------------------------
+                0.00    0.00     301/301         formakf_ [3]
+[68]     0.0    0.00    0.00     301         kernel1_ [68]
+-----------------------------------------------
+                0.00    0.00     301/301         MAIN__ [1]
+[69]     0.0    0.00    0.00     301         rearrangeakf_ [69]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+   [1] MAIN__                 [18] elementmatrixek_d_mp_ekd_adt_reg_tip_ [27] linearsolver_mp_d_mult_ax_
+  [57] __intel_new_memcpy     [46] elementmatrixek_d_mp_ekd_adt_tip_reg_ [41] linearsolver_mp_d_preconditioner_
+  [49] __intel_new_memset     [63] elementmatrixek_d_mp_ekd_adt_tip_tip_ [24] linearsolver_mp_dpcg_
+  [34] __powc16i4             [10] elementmatrixek_d_mp_ekd_ii_reg_reg_ [25] linearsolver_mp_dpcgsolver_
+  [19] __powr8i4              [17] elementmatrixek_d_mp_ekd_ii_tip_tip_ [28] llround
+  [58] _intel_fast_memcpy.A    [6] elementmatrixek_d_mp_ekd_sed_reg_reg_ [31] llround.A
+  [64] compsif_               [16] elementmatrixek_d_mp_ekd_sed_reg_tip_ [29] log
+  [47] cvt_ieee_t_to_text_ex   [8] elementmatrixek_d_mp_ekd_sed_tip_reg_ [12] log.L
+  [55] cvt_integer_to_text    [23] elementmatrixek_d_mp_ekd_sed_tip_tip_ [36] logintpoint_
+  [43] cvtas_t_to_a           [50] for__acquire_lun       [32] post_
+  [20] d_assemble_            [48] for__desc_ret_item     [54] pressure_solver_
+  [35] datapreparation_       [51] for__format_value      [26] processing_
+  [39] elementmatrix_mp_ek_c_ [45] for__interp_fmt        [69] rearrangeakf_
+   [5] elementmatrix_mp_ek_d_ [61] for__put_d             [30] reg_shape_
+   [4] elementmatrix_mp_element_ [52] for__put_sf         [65] remesh_mp_distance_
+  [14] elementmatrix_mp_findb1_ [56] for__write_output    [59] remesh_mp_edge_node_propagate_
+  [15] elementmatrix_mp_findb2_ [53] for_write_seq_fmt    [66] remesh_mp_findpoint_
+   [9] elementmatrix_mp_finde1_ [44] for_write_seq_fmt_xmit [67] remesh_mp_quad_interpolate_
+  [11] elementmatrix_mp_finde2_ [62] for_write_seq_lis_xmit [33] sin
+  [21] elementmatrix_mp_findr_ [3] formakf_               [22] sqrt
+   [7] elementmatrix_mp_normal_position_ [42] gaussintpoint_ [37] tip_dshape_
+  [60] elementmatrixeb_rigid2_mp_ebb_ij2_ [40] globaldata_mp_adjacent_ [38] tip_shape_
+  [13] elementmatrixek_d_mp_ekd_adt_reg_reg_ [68] kernel1_
